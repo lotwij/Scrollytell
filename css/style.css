@@ -1,0 +1,102 @@
+body {
+    font: 15px/1.5 Ubuntu, verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: #FFF;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+header {
+    background: #2B093C;
+    color: #FFF;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #8FC63E 3px solid;
+}
+
+header a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: #E7E8EA;
+}
+
+
+/*  main header   */
+#mainheader{
+    min-height: 800px;
+    /*background: url(../images/Background.svg);*/
+    background-color: #2B093C;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+#mainheader h1{
+    margin-top: 200px;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#mainheader .highlight, header .current a{
+    color: #8FC63E;
+}
+
+#mainheader p{
+    font-size: 35px;
+}
+
+#step1{
+    background-color: #2B093C;
+    min-height: 800px;
+}
+
+#step2{
+    background-color: #E7E8EA;
+    min-height: 1200px;
+}
+
+#step3{
+    background-color: #2B093C;
+    min-height: 1200px;
+}
+
+#step4{
+    background-color: #E7E8EA;
+    min-height: 1200px;
+}
+
+

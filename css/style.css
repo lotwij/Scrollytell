@@ -99,4 +99,18 @@ header a:hover{
     min-height: 1200px;
 }
 
+/* Scrollytell reveal */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+  .reveal.active{
+    transform: translateY(10);
+    opacity: 1;
+  }
+
 
